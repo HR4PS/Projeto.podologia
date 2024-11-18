@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de avaliação Podológica</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/senac-logo-0-removebg-preview-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- DADOS PESSOAIS -->
+    <p>
+        <b>Ficha de avaliação Podológica</b>
+    </p>
+    <div class="form">
+
+        <form action="#">
+            <h4>Dados Pessoais</h4>
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="name">Nome:</label>
+                    <input id="name" type="text" name="name" placeholder="Informe Seu nome" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="date">Data:</label>
+                    <input id="date" type="date" name="date" placeholder="xx/xx/xx" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="address">Endereço:</label>
+                    <input id="adrress" type="text" name="address" placeholder="Endereço" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="city">Cidade:</label>
+                    <input id="city" type="text" name="city" placeholder="Cidade" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="state">Estado:</label>
+                    <input id="state" type="text" name="state" placeholder="Estado" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="cep">CEP:</label>
+                    <input id="cep" type="text" name="cep" placeholder="xxxxx-xxx" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="homePhone">Tel. Res:</label>
+                    <input id="homePhone" type="text" name="homePhone" placeholder="(xx)xxxx-xxxx" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="phone">Tel:</label>
+                    <input id="phone" type="text" name="phone" placeholder="(xx) xxxxx-xxxx" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="emergencyPhone">Tel. Emergêncial:</label>
+                    <input id="emergencyPhone" type="text" name="emergencyPhone" placeholder="(xx) xxxxx-xxxx" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="emergencyPhone">Data Nasc.</label>
+                    <input id="emergencyPhone" type="date" name="emergencyPhone" placeholder="" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="emergencyPhone">Profissão:</label>
+                    <input id="emergencyPhone" type="text" name="emergencyPhone" placeholder="" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="emergencyPhone">Email:</label>
+                    <input id="emergencyPhone" type="text" name="emergencyPhone" placeholder="" required>
+                </div>
+            </div>
+
+            <div class="gender-input">
+                <label for="sex">Sexo:</label>
+                <input type="radio" name="famale" id="gender">
+                <label for="famale">Feminino</label>
+            </div>
+            <div class="gender-input">
+                <input type="radio" name="male" id="gender">
+                <label for="male">Masculino</label>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- DADOS GERAIS -->
+
+    <div class="form">
+
+        <form action="#">
+            <h4>Dados Gerais</h4>
+
+            <div class="input-box">
+                <label for="question">Queixa principal:</label>
+                <input type="text">
+            </div>
+
+
+            <div class="input-box">
+                <div class="gender-input">
+                    <label for="question">Costuma ir ao Podólogo?</label>
+
+                    <input type="checkbox" name="yes" id="gender">
+                    <label for="yes">Sim</label>
+
+                    <input type="checkbox" name="no" id="gender">
+                    <label for="no">Não</label>
+
+                </div>
+
+                <div class="gender-input">
+                    <label for="frequence">Com qual frequência?</label>
+                    <input type="text">
+                </div>
+                <div class="gender-input">
+                    <label for="">Faz uso de medicamentos? Quais?</label>
+                    <input type="text" name="yes" id="gender">
+                </div>
+
+                <div class="gender-input">
+                    <label for="">Alérgico?</label>
+
+                    <input type="checkbox" name="yes" id="gender">
+                    <label for="no">Sim</label>
+
+                    <input type="checkbox" name="yes" id="gender">
+                    <label for="no">Não</label>
+                </div>
+
+                <div class="gender-input">
+                    <label for="">Quais substâncias?</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="gender-input">
+                    <label for="job-position">Posição de trabalho:</label>
+                    <label for="standing">Em pé</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="sitting">Sentado</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="walking">Andando</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="duration">Duração</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="hs">hs</label>
+                    <input type="checkbox" name="" id="">
+                </div>
+
+                <br>
+
+                <div class="gender-input">
+                    <label for="">Passa a maior parte do tempo:</label>
+                    <input type="checkbox">
+                    <label for="standing">Em pé</label>
+                    <input type="checkbox" name="standing">
+                    <label for="sitting">Sentado</label>
+                    <input type="checkbox" name="walking" id="">
+                    <label for="">Caminhando</label>
+                </div>
+
+                <div class="gander-input">
+                    <label for="">N° do calçado</label>
+                    <input type="text" name="" id="" placeholder="32/33">
+                </div>
+                <div class="gander-input">
+                    <label for="">Tipo de calçado de uso diário</label>
+                    <input type="text" name="" id="" placeholder="Chinelo, Tênis">
+                </div>
+                <div class="gander-input">
+                    <label for="">Faz uso de palmilha?</label>
+
+
+                    <input type="checkbox" name="yes" id="">
+                    <label for="yes">Sim</label>
+
+
+                    <input type="checkbox" name="no" id="">
+                    <label for="no">Não</label>
+
+                </div>
+                <div class="gender-input">
+                    <label for="">Qual?</label>
+
+
+                    <input type="checkbox" name="" id="">
+                    <label for="">Ortopédica</label>
+
+
+                    <input type="checkbox" name="" id="">
+                    <label for="">Descanso</label>
+                </div>
+
+                <div class="gander-input">
+                    <label for="">É fumante?</label>
+
+                    <input type="checkbox" name="yes" id="">
+                    <label for="yes">Sim</label>
+
+                    <input type="checkbox" name="no" id="">
+                    <label for="no">Não</label>
+                </div>
+
+                <div class="gander-input">
+                    <label for="">Ciclo de menstruação regular?</label>
+
+                    <input type="checkbox" name="yes" id="">
+                    <label for="yes">Sim</label>
+
+                    <input type="checkbox" name="no" id="">
+                    <label for="no">Não</label>
+                </div>
+
+                <div class="gander-input">
+                    <label for="">Está gestante?</label>
+
+                    <input type="checkbox" name="yes" id="">
+                    <label for="yes">Sim</label>
+
+                    <input type="checkbox" name="no" id="">
+                    <label for="no">Não</label>
+                </div>
+
+                <div class="gender-input">
+                    <label for="">Está amamentando?</label>
+                    <input type="checkbox" name="yes" id="">
+                    <label for="yes">Sim</label>
+
+                    <input type="checkbox" name="no" id="">
+                    <label for="no">Não</label>
+                </div>
+
+                <div class="gender-input">
+                    <label for="DUM">DUM</label>
+                    <input type="date" name="" id="">
+                </div>
+
+                <div class="gander-input">
+                    <label for="">Pratica atividade física?</label>
+
+                    <input type="checkbox" name="yes" id="">
+                    <label for="yes">Sim</label>
+
+                    <input type="checkbox" name="no" id="">
+                    <label for="no">Não</label>
+
+                    <label for="frequence">Frequência?</label>
+                    <input type="text" name="frequence" id="" placeholder="Três vezes na semana">
+
+                    <label for="frequence">Qual esporte e tipo de calçado?</label>
+                    <input type="text" name="frequence" id="" placeholder="Esporte">
+                    <input type="text" name="frequence" id="" placeholder="Calçado">
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+ <!-- dados clínicos -->
+
+
+    <div class="form-clinic">
+
+        <form action="#">
+            <h4>Dados Clínicos</h4>
+
+            <div class="input-group">
+
+                <div class="input-box-clinic">
+                    <input id="name" type="checkbox" name="">
+                    <label for="">Gestante</label>
+                
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="date" type="checkbox" name="">
+                    <label for="">Hipertiroidismo</label>
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="adrress" type="checkbox" name="">
+                    <label for="a">Renal</label>
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="city" type="checkbox" name="">
+                    <label for="city">Espilepsia</label>
+                    
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="state" type="checkbox" name="">
+                    <label for="state">Quimioterapia / Radioterapia</label>
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="cep" type="checkbox" name="">
+                    <label for="cep">Hipotiroidiso</label>
+                    
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="homePhone" type="checkbox" name="">
+                    <label for="homePhone">Osteoporose</label>
+                    
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="phone" type="checkbox" name="">
+                    <label for="phone">Hipotensão</label>
+                    
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="emergencyPhone" type="checkbox" name="">
+                    <label for="emergencyPhone">Neuropatia</label>
+                   
+                </div>
+
+                <div class="input-box-clinic">   
+                    <input id="emergencyPhone" type="checkbox" name="">
+                    <label for="emergencyPhone">Hepatite</label>
+
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="emergencyPhone" type="checkbox" name="">
+                    <label for="emergencyPhone">Antecedentes Oncológicos</label>
+                    
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="emergencyPhone" type="checkbox" name="">
+                    <label for="emergencyPhone">Cardiopatia</label>
+                    
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="emergencyPhone" type="checkbox" name="">
+                    <label for="emergencyPhone">Hipertensão</label>
+                    
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="emergencyPhone" type="checkbox" name="">
+                    <label for="emergencyPhone">Reumatismo</label>
+                    
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="emergencyPhone" type="checkbox" name="">
+                    <label for="emergencyPhone">Hanseniase</label>
+                    
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="emergencyPhone" type="checkbox" name="">
+                    <label for="emergencyPhone">Cirurgia MMII</label>
+                    
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="emergencyPhone" type="checkbox" name="">
+                    <label for="emergencyPhone">Marca Passo</label>
+                   
+                </div>
+
+                <div class="input-box-clinic">
+                    <input id="emergencyPhone" type="checkbox" name="">
+                    <label for="emergencyPhone">Alterações ou Comprometimento vasculares</label>
+                    
+                </div>
+            </div>
+
+            <div class="border">
+
+            </div>
+
+
+
+          <!--segunda parte -->
+
+            
+          <div class="container2 mt-4">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center mb-3">
+                    <label class="form-label me-2">Diabetes:</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="hipotensaoSim" name="hipotensao">
+                        <label class="form-check-label" for="hipotensaoSim">Sim</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="hipotensaoNao" name="hipotensao">
+                        <label class="form-check-label" for="hipotensaoNao">Não</label>
+                    </div>
+                </div>
+        
+                <div class="col-md-6 d-flex align-items-center mb-3">
+                    <label class="form-label me-2">Insulina:</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="insulinaSim" name="insulina">
+                        <label class="form-check-label" for="insulinaSim">Sim</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="insulinaNao" name="insulina">
+                        <label class="form-check-label" for="insulinaNao">Não</label>
+                    </div>
+                </div>
+        
+                <div class="col-md-6 d-flex align-items-center mb-3">
+                    <label class="form-label me-2">Dieta Hídrica:</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="dietaIdricaSim" name="dietaIdrica">
+                        <label class="form-check-label" for="dietaIdricaSim">Sim</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="dietaIdricaNao" name="dietaIdrica">
+                        <label class="form-check-label" for="dietaIdricaNao">Não</label>
+                    </div>
+                </div>
+        
+                <div class="col-md-6 d-flex align-items-center mb-3">
+                    <label class="form-label me-2" for="injetavel">Injetável:</label>
+                    <input class="form-check-input" type="checkbox" id="injetavel" name="injetavel">
+
+                    <label class="form-label me-4" for="viaOral">Via Oral:</label>
+                    <input class="form-check-input" type="checkbox" id="viaOral" name="viaOral">
+                </div>
+        
+                <div class="col-md-6 d-flex align-items-center mb-3">
+                    <label class="form-label me-2" for="dietaAlimentar">Dieta Alimentar:</label>
+                    <input class="form-check-input" type="checkbox" id="dietaAlimentar" name="dietaAlimentar">
+                </div>
+        
+                <div class="col-md-6 d-flex align-items-center mb-3">
+                    
+                </div>
+        
+                <div class="col-md-6 d-flex align-items-center mb-3">
+                    <label class="form-label me-2" for="taxaGlinica">Taxa Glicêmica:</label>
+                    <input type="text" class="form-control w-50" id="taxaGlinica" placeholder="">
+                </div>
+                <div class="col-md-6 d-flex align-items-center mb-3">
+                    <label class="form-label me-2" for="taxaGlinica">Data da ultima verificação:</label>
+                    <input type="date" class="form-control w-50" id="taxaGlinica" placeholder="">
+                </div>
+            </div>
+        </div>
+        
+        
+
+
+    <!-- Alterações e lesões dos pés -->
+    <div class="form">
+        <form action="#">
+            <h4>ALTERAÇÕES E LESÕES DOS PÉS</h4>
+            <div class="row justify-content-center">
+                <p>Tipo de pisada</p>
+                <div class="col-md-2">
+                    <img src="images/pe_cavo.png" alt="">
+
+                </div>
+
+                <div class="col-md-2">
+                    <img src="images/pe_chato.png" alt="">
+
+                </div>
+
+                <div class="col-md-2">
+                    <img src="images/pe_normal.png" alt="">
+
+                </div>
+                <hr>
+                <div class="row ">
+                    <!-- Flexível -->
+                    <div class="col">
+                        <div class="card p-3">
+                            <div class="card-title">Flexível</div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="flexivelD">
+                                <label class="form-check-label" for="flexivelD">D</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="flexivelE">
+                                <label class="form-check-label" for="flexivelE">E</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Rígido -->
+                    <div class="col">
+                        <div class="card p-3">
+                            <div class="card-title">Rígido</div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="rigidoD">
+                                <label class="form-check-label" for="rigidoD">D</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="rigidoE">
+                                <label class="form-check-label" for="rigidoE">E</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Espalmado -->
+                    <div class="col">
+                        <div class="card p-3">
+                            <div class="card-title">Espalmado</div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="espalmadoD">
+                                <label class="form-check-label" for="espalmadoD">D</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="espalmadoE">
+                                <label class="form-check-label" for="espalmadoE">E</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Martelo -->
+                    <div class="col">
+                        <div class="card p-3">
+                            <div class="card-title">Martelo</div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="marteloD">
+                                <label class="form-check-label" for="marteloD">D</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="marteloE">
+                                <label class="form-check-label" for="marteloE">E</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Queda de Metatarso -->
+                    <div class="col">
+                        <div class="card p-3">
+                            <div class="card-title">Queda de Metatarso</div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="quedaD">
+                                <label class="form-check-label" for="quedaD">D</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="quedaE">
+                                <label class="form-check-label" for="quedaE">E</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container  justify-content-center">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p>Tipo de Marcha</p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Normal
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Patológica
+                                </label>
+                            </div>
+
+                            <label for="inputText">Qual?</label>
+                            <input type="text" id="inputText" name="inputText">
+                        </div>
+
+                        <div class="col-md-3 ">
+                            <p>Joelho</p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Normal
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Valgo
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Varo
+                                </label>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-3 ">
+                            <p>Articulação</p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Retropé
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Chopart
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Mediopé
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Lisfranc
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Antepé
+                                </label>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-3 ">
+                            <p>Sensibilidade a dor</p>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Diminuída
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Normal
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Aumentada
+                                </label>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </form>
+    </div>
+
+    <div class="form">
+
+        <form action="#">
+            <h4>Formato das Unhas</h4>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="/images/unha_caracol.png" alt="">
+                    <p>Unha Caracol</p>
+                </div>
+
+                <div class="col-md-3">
+                    <img src="/images/unha_cunha.png" alt="">
+                    <p>Unha Cunha</p>
+                </div>
+
+                <div class="col-md-3">
+                    <img src="/images/unha_funil.png" alt="">
+                    <p>Unha Funil</p>
+                </div>
+
+                <div class="col-md-3">
+                    <img src="/images/unha_gancho.png" alt="">
+                    <p>Unha Gancho</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="/images/unha_involuta.png" alt="">
+                        <p>Unha Involuta</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img src="/images/unha_normal.png" alt="">
+                        <p>Unha Normal</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img src="/images/unha_telha.png" alt="">
+                        <p>Unha Telha</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img src="/images/unha_torques.png" alt="">
+                        <p>Unha Torques</p>
+                    </div>
+                </div>
+
+
+
+            </div> <!-- fecha row -->
+
+
+
+
+            <div class="titulo2 text-center ">
+                <h2>Artelhos</h2>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>PD</h3>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Hálux
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            2°
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            3°
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            4°
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            5°
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h3>PE</h3>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Hálux
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            2°
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            3°
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            4°
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            5°
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="row2 mt-10">
+                <div class="col-md-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Onicoatrofia
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Onicocriptose
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Onicorrexe
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Granuloma
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Onicogrifose
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Onicolise
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Onicofose
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Psoríase ungueal
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Onicomicose
+                        </label>
+                    </div>
+                </div>
+                <div class="txt mb-6">
+                    <label for="exampleFormControlTextarea1" class="form-label"><u>Outras alterações ungueais</u></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="form">
+
+        <form action="#">
+            <h4>Alterações e lesões </h4>
+            <div class="row justify-content-center ">
+                <div class="col-md-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Bromidrose
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Hidrose
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Desidrose
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Isquemia
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Mal Perfurante
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Edema
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Tínea
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Psoríase
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Tungíase
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Verruga Plantar
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Calo Dorsal
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Querotose
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Calo Plantar
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Hiperqueratose
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Calo Interdigital
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="titulo2 text-center ">
+                <h2>Perfusão</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h3>PD</h3>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Normal
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Pálido
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Cianótico
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>PE</h3>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Normal
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Pálido
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Cianótico
+                        </label>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+            <div class="text-center">
+                <h3>Já teve ou apresenta Erisipela?</h3>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto d-flex align-items-center gap-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            SIM
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            NÃO
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Outras alterações na pele:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+        </form>
+
+        
+    </div>
+    <div class="form">
+        <form action="#">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Outros Comentários e
+                            Observações</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
